@@ -1,0 +1,47 @@
+@import '../../variables.scss';
+
+.experienceHeading {
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin: 7% 7% 0 11%;
+    padding-left: 6%;
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    display: inline-block;
+    width: 80%;
+}
+
+.experienceTitle {
+    width: 80%;
+}
+
+.experienceIconImage {
+    width: 8%;
+}
+
+.experienceTitle, .experienceIconImage {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.experienceHeading:hover {
+    transform: $hoverSize;
+    cursor: $cursorPointer;
+}
+
+.experienceBody {
+    box-shadow: 5px 10px 12px #a2c3c3;
+    margin-top: 7%;
+    margin-left: 7%;
+    font-family: 'K2D', sans-serif;
+}
+
+.listExperienceLine {
+    margin-bottom: 2%;
+}
+
+.listItemExperience {
+    margin: 0 5% 5% 5%;
+    padding: 1% 1% 1%;
+    box-shadow: $boxShadow;
+}

@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+.contactHeading {
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin: 7% 7% 0 11%;
+    padding-left: 6%;
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    display: inline-block;
+    width: 80%;
+}
+
+.contactTitle {
+    width: 80%;
+}
+
+.contactIconImage {
+    width: 8%;
+}
+
+.contactTitle, .contactIconImage {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.contactHeading:hover {
+    transform: $hoverSize;
+    cursor: $cursorPointer;
+}
+
+.contactBody {
+    box-shadow: 5px 10px 12px #a2c3c3;
+    margin: 7% 4% 7% 13%;
+    font-family: 'K2D', sans-serif;
+}

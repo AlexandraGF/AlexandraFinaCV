@@ -1,0 +1,47 @@
+@import '../../variables.scss';
+
+.studiesHeading {
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin: 7% 7% 0 11%;
+    padding-left: 6%;
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    display: inline-block;
+    width: 80%;
+}
+
+.studiesTitle {
+    width: 80%;
+}
+
+.studiesIconImage {
+    width: 8%;
+}
+
+.studiesTitle, .studiesIconImage {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.studiesHeading:hover {
+    transform: $hoverSize;
+    cursor: $cursorPointer;
+}
+
+.studiesBody {
+    box-shadow: 5px 10px 12px #a2c3c3;
+    margin-top: 7%;
+    margin-left: 7%;
+    font-family: 'K2D', sans-serif;
+}
+
+.listStudiesLine {
+    margin-bottom: 2%;
+}
+
+.listItemStudies {
+    margin: 0 5% 5% 5%;
+    padding: 1% 1% 1%;
+    box-shadow: $boxShadow;
+}

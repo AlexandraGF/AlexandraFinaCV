@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App Component 1`] = `
+<div>
+  <div
+    className="experienceHeading"
+    onClick={[Function]}
+  >
+    <div
+      className="experienceTitle"
+    >
+      Work Experience/Education
+    </div>
+    <div
+      className="experienceIconImage"
+    >
+      <img
+        src="plus.png"
+      />
+    </div>
+  </div>
+  <div
+    className="experienceBody"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`renders Experience Component 1`] = `
+<div>
+  <div
+    className="experienceHeading"
+    onClick={[Function]}
+  >
+    <div
+      className="experienceTitle"
+    >
+      Work Experience/Education
+    </div>
+    <div
+      className="experienceIconImage"
+    >
+      <img
+        src="plus.png"
+      />
+    </div>
+  </div>
+  <div
+    className="experienceBody"
+  >
+    
+  </div>
+</div>
+`;

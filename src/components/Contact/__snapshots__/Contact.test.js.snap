@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Contact Component 1`] = `
+<div>
+  <div
+    className="contactHeading"
+    onClick={[Function]}
+  >
+    <div
+      className="contactTitle"
+    >
+      Contact Details
+    </div>
+    <div
+      className="contactIconImage"
+    >
+       
+      <img
+        src="plus.png"
+      />
+    </div>
+  </div>
+  
+</div>
+`;

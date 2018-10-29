@@ -6,23 +6,24 @@ import renderer from 'react-test-renderer';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-import App from './App';
+import Contact from './Contact';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Contact />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
 
 it('renders text', () => {
-  const wrapper = mount(<App />);
-  expect(wrapper.text()).toContain("Alexandra");
-  });
-  
-  it('renders App Component', () => {
-  const tree = renderer.create(
-  <App />
-  ).toJSON();
-  
-  expect(tree).toMatchSnapshot();
-  })
+    const wrapper = mount(<Contact />);
+    expect(wrapper.text()).toContain("Contact Details");
+    });
+    
+    it('renders Contact Component', () => {
+    const tree = renderer.create(
+    <Contact />
+    ).toJSON();
+    
+    expect(tree).toMatchSnapshot();
+    })
+    

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App Component 1`] = `
+<div
+  className="title"
+>
+  <div>
+    Alexandra Fina
+  </div>
+  <div
+    className="anchors"
+  >
+    <a
+      href="https://www.linkedin.com/in/alexandra-fina-0418aab2/"
+      target="_blank"
+    >
+      <div
+        className="linkedInAnchor"
+      >
+        LinkedIn
+      </div>
+    </a>
+    <a
+      href="https://github.com/AlexandraGF"
+      target="_blank"
+    >
+      <div
+        className="gitHubAnchor"
+      >
+        GitHub
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders Title Component 1`] = `
+<div
+  className="title"
+>
+  <div>
+    Alexandra Fina
+  </div>
+  <div
+    className="anchors"
+  >
+    <a
+      href="https://www.linkedin.com/in/alexandra-fina-0418aab2/"
+      target="_blank"
+    >
+      <div
+        className="linkedInAnchor"
+      >
+        LinkedIn
+      </div>
+    </a>
+    <a
+      href="https://github.com/AlexandraGF"
+      target="_blank"
+    >
+      <div
+        className="gitHubAnchor"
+      >
+        GitHub
+      </div>
+    </a>
+  </div>
+</div>
+`;

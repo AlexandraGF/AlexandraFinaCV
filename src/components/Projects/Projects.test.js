@@ -6,23 +6,23 @@ import renderer from 'react-test-renderer';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-import App from './App';
+import Projects from './Projects';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Projects />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
 
 it('renders text', () => {
-  const wrapper = mount(<App />);
-  expect(wrapper.text()).toContain("Alexandra");
-  });
-  
-  it('renders App Component', () => {
-  const tree = renderer.create(
-  <App />
-  ).toJSON();
-  
-  expect(tree).toMatchSnapshot();
-  })
+    const wrapper = mount(<Projects />);
+    expect(wrapper.text()).toContain("Personal Projects");
+    });
+    
+    it('renders Projects Component', () => {
+    const tree = renderer.create(
+    <Projects />
+    ).toJSON();
+    
+    expect(tree).toMatchSnapshot();
+    })

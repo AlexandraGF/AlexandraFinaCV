@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AboutMe Component 1`] = `
+<div>
+  <div
+    className="statementHeading"
+    onClick={[Function]}
+  >
+    <div
+      className="statementTitle"
+    >
+      Personal Statement
+    </div>
+    <div
+      className="statementIconImage"
+    >
+       
+      <img
+        src="plus.png"
+      />
+    </div>
+  </div>
+  
+</div>
+`;

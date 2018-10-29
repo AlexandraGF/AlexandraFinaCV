@@ -1,0 +1,50 @@
+@import '../../variables.scss';
+
+.skillsHeading {
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin: 7% 7% 0 11%;
+    padding-left: 6%;
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    display: inline-block;
+    width: 80%;
+}
+
+.skillsTitle {
+    width: 80%;
+}
+
+.skillsIconImage {
+    width: 8%;
+}
+
+.skillsTitle, .skillsIconImage {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.skillsHeading:hover {
+    transform: $hoverSize;
+    cursor: $cursorPointer;
+}
+
+.skillsBody {
+    box-shadow: 5px 10px 12px #a2c3c3;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 7% 4% 5% 12%;
+    font-family: 'K2D', sans-serif;
+}
+
+.listItemSkills {
+    margin: 0 5% 5% 5%;
+    padding: 1% 1% 1%;
+    box-shadow: $boxShadow;
+}
+
+.listItemLanguage {
+    margin: 0 5% 5% 12%;
+    padding: 1% 1% 1%;
+    box-shadow: $boxShadow;
+}

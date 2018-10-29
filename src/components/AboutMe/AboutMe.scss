@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+
+.statementHeading {
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin: 7% 7% 0 11%;
+    padding-left: 6%;
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    display: inline-block;
+    width: 80%;
+}
+
+.statementTitle {
+    width: 80%;
+}
+
+.statementIconImage {
+    width: 8%;
+}
+
+.statementTitle, .statementIconImage {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.statementHeading:hover {
+    transform: $hoverSize;
+    cursor: $cursorPointer;
+}
+
+.statementBody {
+    box-shadow: 5px 10px 12px #a2c3c3;
+    margin: 7% 4% 7% 13%;
+    padding: 2% 2% 2% 2%;
+    text-align: justify;
+    font-family: 'K2D', sans-serif;
+}

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App Component 1`] = `
+<div>
+  <div
+    className="skillsHeading"
+    onClick={[Function]}
+  >
+    <div
+      className="skillsTitle"
+    >
+      Skills
+    </div>
+    <div
+      className="skillsIconImage"
+    >
+      <img
+        src="plus.png"
+      />
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</div>
+`;
+
+exports[`renders Skills Component 1`] = `
+<div>
+  <div
+    className="skillsHeading"
+    onClick={[Function]}
+  >
+    <div
+      className="skillsTitle"
+    >
+      Skills
+    </div>
+    <div
+      className="skillsIconImage"
+    >
+      <img
+        src="plus.png"
+      />
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</div>
+`;
