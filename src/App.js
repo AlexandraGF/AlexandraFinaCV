@@ -20,6 +20,7 @@ class App extends Component {
         <Projects />
         <Experience />
         <FullTimeStudies />
+        <div className="authorDiv">Developed by <a className="authorAnchor" target="_blank" href="https://github.com/AlexandraGF">Alexandra Fina</a></div>
       </div>
     );
   }
