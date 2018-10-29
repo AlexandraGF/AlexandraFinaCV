@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import plusImage from '../../plus.png';
-import minusImage from '../../minus.png';
 import './Experience.scss';
 
 class Experience extends Component {
@@ -53,10 +51,10 @@ class Experience extends Component {
         <div> 
             <div className="experienceHeading" onClick={this.handleClick}>
                 <div className="experienceTitle">Work Experience/Education</div>
-                <div className="experienceIconImage">{!this.state.clicked ? (<img src={plusImage} />): (<img src={minusImage} />)}</div>
+                <div className="experienceIconImage">{!this.state.clicked ? "+" : "-"}</div>
             </div>
-            <div className="experienceBody">{this.state.clicked ? (
-                    <div>
+            <div>{this.state.clicked ? (
+                    <div className="experienceBody">
                         {experienceList.map(function(item, i){
                             return (
                             <div className="listItemExperience" key={i}> 

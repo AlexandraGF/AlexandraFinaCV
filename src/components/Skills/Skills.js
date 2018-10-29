@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import plusImage from '../../plus.png';
-import minusImage from '../../minus.png';
 import './Skills.scss';
 
 class Skills extends Component {
@@ -42,7 +40,7 @@ class Skills extends Component {
         <div> 
             <div className="skillsHeading" onClick={this.handleClick}>
                 <div className="skillsTitle">Skills</div>
-                <div className="skillsIconImage">{!this.state.clicked ? (<img src={plusImage} />) : (<img src={minusImage} />)}</div>
+                <div className="skillsIconImage">{!this.state.clicked ? "+" : "-"}</div>
             </div>
             <div>{this.state.clicked ? (
                 <div>

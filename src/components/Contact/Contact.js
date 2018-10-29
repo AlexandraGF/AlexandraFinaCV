@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import plusImage from '../../plus.png';
-import minusImage from '../../minus.png';
 import './Contact.scss';
 
 class Contact extends Component {
@@ -20,7 +18,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <div className="contactHeading" onClick={this.handleClick}><div className="contactTitle">Contact Details</div><div className="contactIconImage"> {!this.state.clicked ? (<img src={plusImage} />): (<img src={minusImage} />)}</div></div> 
+                <div className="contactHeading" onClick={this.handleClick}><div className="contactTitle">Contact Details</div><div className="contactIconImage"> {!this.state.clicked ? "+": "-"}</div></div> 
                     {this.state.clicked ? (
                     <div className="contactBody">
                     <div>58 Cornwall Road</div>
