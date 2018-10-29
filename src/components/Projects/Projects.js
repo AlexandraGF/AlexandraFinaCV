@@ -17,9 +17,9 @@ class Projects extends Component {
 
     render() {
         const projectsList = [ 
-            {id: 1, name: 'Puzzle Game (React)', link: 'https://puzzlegamereact.herokuapp.com'},
-            {id: 2, name: 'Funny Story', link: 'https://alexandragf.github.io/funnyStory-JavaScript/'},  
-            {id: 3, name: 'Tic Tac Toe', link: 'https://alexandragf.github.io/ticTacToeJs/'}, 
+            {id: 1, name: 'Puzzle Game (React)', link: 'https://puzzlegamereact.herokuapp.com'}, 
+            {id: 2, name: 'Tic Tac Toe', link: 'https://alexandragf.github.io/ticTacToeJs/'}, 
+            {id: 3, name: 'Funny Story', link: 'https://alexandragf.github.io/funnyStory-JavaScript/'}, 
         ]; 
 
         return (
