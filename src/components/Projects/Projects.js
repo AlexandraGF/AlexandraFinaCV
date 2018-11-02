@@ -20,6 +20,7 @@ class Projects extends Component {
             {id: 1, name: 'Puzzle Game (React)', link: 'https://puzzlegamereact.herokuapp.com'}, 
             {id: 2, name: 'Tic Tac Toe', link: 'https://alexandragf.github.io/ticTacToeJs/'}, 
             {id: 3, name: 'Funny Story', link: 'https://alexandragf.github.io/funnyStory-JavaScript/'}, 
+            {id: 4, name: 'Dobble Game', link: 'https://alexandragf.github.io/dobbleGame/'},
         ]; 
 
         return (
